@@ -27,7 +27,7 @@ install:
 
 script:
   - make build-all
-  - make coveralls
+#  - make coveralls
   - make check
   - make test-race
   - make bench-race
