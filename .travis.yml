@@ -12,7 +12,7 @@ arch:
  - amd64
  - arm64
 
-matrix:
+jobs:
   include:
    - os: linux
      arch: amd64
