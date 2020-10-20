@@ -12,8 +12,8 @@ IMAGE_NAME := htli/$(BINARY_NAME)
 ARCH ?= $$(uname -s | tr A-Z a-z)
 GOVERSION := 1.13.6  # Keep in sync with .travis.yml and README.md
 GP := /gopath
-MAIN_PKG := github.com/htli/gostatsd/cmd/gostatsd
-CLUSTER_PKG := github.com/htli/gostatsd/cmd/cluster
+MAIN_PKG := github.com/hligit/gostatsd/cmd/gostatsd
+CLUSTER_PKG := github.com/hligit/gostatsd/cmd/cluster
 PROTOBUF_VERSION ?= 3.6.1
 
 setup: setup-ci
@@ -50,7 +50,7 @@ test-all: fmt cover test-race bench bench-race check
 
 fmt:
 	gofmt -w=true -s $$(find . -type f -name '*.go' -not -path "./vendor/*" -not -path "./pb/*")
-	goimports -w=true -d -local github.com/htli/gostatsd $$(find . -type f -name '*.go' -not -path "./vendor/*" -not -path "./pb/*")
+	goimports -w=true -d -local github.com/hligit/gostatsd $$(find . -type f -name '*.go' -not -path "./vendor/*" -not -path "./pb/*")
 
 test: pb/gostatsd.pb.go
 	go test ./...
@@ -91,7 +91,7 @@ fuzz-setup:
 	go install github.com/dvyukov/go-fuzz/go-fuzz github.com/dvyukov/go-fuzz/go-fuzz-build
 
 fuzz:
-	go-fuzz-build github.com/htli/gostatsd/pkg/statsd
+	go-fuzz-build github.com/hligit/gostatsd/pkg/statsd
 	go-fuzz -bin=./statsd-fuzz.zip -workdir=test_fixtures/lexer_fuzz
 
 watch:
@@ -106,7 +106,7 @@ docker: pb/gostatsd.pb.go
 	docker run \
 		--rm \
 		-v "$(GOPATH)":"$(GP)" \
-		-w "$(GP)/src/github.com/htli/gostatsd" \
+		-w "$(GP)/src/github.com/hligit/gostatsd" \
 		-e GOPATH="$(GP)" \
 		-e CGO_ENABLED=0 \
 		golang:$(GOVERSION) \
@@ -119,7 +119,7 @@ docker-race: pb/gostatsd.pb.go
 	docker run \
 		--rm \
 		-v "$(GOPATH)":"$(GP)" \
-		-w "$(GP)/src/github.com/htli/gostatsd" \
+		-w "$(GP)/src/github.com/hligit/gostatsd" \
 		-e GOPATH="$(GP)" \
 		golang:$(GOVERSION) \
 		go build -race -o build/bin/linux/$(BINARY_NAME) $(GOBUILD_VERSION_ARGS) $(MAIN_PKG)
@@ -131,7 +131,7 @@ docker-symbols: pb/gostatsd.pb.go
 	docker run \
 		--rm \
 		-v "$(GOPATH)":"$(GP)" \
-		-w "$(GP)/src/github.com/htli/gostatsd" \
+		-w "$(GP)/src/github.com/hligit/gostatsd" \
 		-e GOPATH="$(GP)" \
 		-e CGO_ENABLED=0 \
 		golang:$(GOVERSION) \
