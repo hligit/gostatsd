@@ -6,16 +6,16 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/pkg/backends/cloudwatch"
-	"github.com/atlassian/gostatsd/pkg/backends/datadog"
-	"github.com/atlassian/gostatsd/pkg/backends/graphite"
-	"github.com/atlassian/gostatsd/pkg/backends/influxdb"
-	"github.com/atlassian/gostatsd/pkg/backends/newrelic"
-	"github.com/atlassian/gostatsd/pkg/backends/null"
-	"github.com/atlassian/gostatsd/pkg/backends/statsdaemon"
-	"github.com/atlassian/gostatsd/pkg/backends/stdout"
-	"github.com/atlassian/gostatsd/pkg/transport"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/pkg/backends/cloudwatch"
+	"github.com/hligit/gostatsd/pkg/backends/datadog"
+	"github.com/hligit/gostatsd/pkg/backends/graphite"
+	"github.com/hligit/gostatsd/pkg/backends/influxdb"
+	"github.com/hligit/gostatsd/pkg/backends/newrelic"
+	"github.com/hligit/gostatsd/pkg/backends/null"
+	"github.com/hligit/gostatsd/pkg/backends/statsdaemon"
+	"github.com/hligit/gostatsd/pkg/backends/stdout"
+	"github.com/hligit/gostatsd/pkg/transport"
 )
 
 // All known backends.

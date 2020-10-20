@@ -18,7 +18,7 @@ import (
 	mainFake "k8s.io/client-go/kubernetes/fake"
 	kube_testing "k8s.io/client-go/testing"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 const (

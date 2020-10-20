@@ -8,9 +8,9 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/pb"
-	"github.com/atlassian/gostatsd/pkg/transport"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/pb"
+	"github.com/hligit/gostatsd/pkg/transport"
 )
 
 func TestHttpForwarderV2Translation(t *testing.T) {

@@ -3,7 +3,7 @@ package stats
 import (
 	"sync/atomic"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 // repeatCount is how many times to send the gauge once it changes.  22 is used because it will cover at

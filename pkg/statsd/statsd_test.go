@@ -13,9 +13,9 @@ import (
 	"github.com/spf13/viper"
 	"golang.org/x/time/rate"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/pkg/cachedinstances/cloudprovider"
-	"github.com/atlassian/gostatsd/pkg/fakesocket"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/pkg/cachedinstances/cloudprovider"
+	"github.com/hligit/gostatsd/pkg/fakesocket"
 )
 
 // TestStatsdThroughput emulates statsd work using fake network socket and null backend to

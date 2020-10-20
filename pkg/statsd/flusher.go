@@ -10,9 +10,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/tilinna/clock"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/internal/util"
-	"github.com/atlassian/gostatsd/pkg/stats"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/internal/util"
+	"github.com/hligit/gostatsd/pkg/stats"
 )
 
 // MetricFlusher periodically flushes metrics from all Aggregators to Senders.

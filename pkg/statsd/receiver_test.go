@@ -10,8 +10,8 @@ import (
 	"github.com/magiconair/properties/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/pkg/fakesocket"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/pkg/fakesocket"
 )
 
 func BenchmarkReceive(b *testing.B) {

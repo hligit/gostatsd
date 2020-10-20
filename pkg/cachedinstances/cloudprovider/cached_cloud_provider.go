@@ -11,8 +11,8 @@ import (
 	"github.com/tilinna/clock"
 	"golang.org/x/time/rate"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/pkg/stats"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/pkg/stats"
 )
 
 func NewCachedCloudProvider(logger logrus.FieldLogger, limiter *rate.Limiter, cloudProvider gostatsd.CloudProvider, cacheOpts gostatsd.CacheOptions) *CachedCloudProvider {

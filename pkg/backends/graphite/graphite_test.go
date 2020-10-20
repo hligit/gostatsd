@@ -16,7 +16,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 func TestPreparePayloadLegacy(t *testing.T) {

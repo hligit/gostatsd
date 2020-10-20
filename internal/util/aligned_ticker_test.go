@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tilinna/clock"
 
-	"github.com/atlassian/gostatsd/internal/fixtures"
+	"github.com/hligit/gostatsd/internal/fixtures"
 )
 
 const ms = int64(time.Millisecond)

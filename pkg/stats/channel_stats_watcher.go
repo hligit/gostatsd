@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 // ChannelStatsWatcher reports metrics about channel usage to a Statser

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 func timer(histogramThresholds string, values ...float64) gostatsd.Timer {

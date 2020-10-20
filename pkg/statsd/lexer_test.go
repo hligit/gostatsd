@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/internal/pool"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/internal/pool"
 )
 
 func TestMetricsLexer(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 	"github.com/ash2k/stager/wait"
 	"github.com/sirupsen/logrus"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/pkg/stats"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/pkg/stats"
 )
 
 // AggregatorFactory creates Aggregator objects.

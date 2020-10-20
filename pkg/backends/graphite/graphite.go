@@ -15,10 +15,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/internal/util"
-	"github.com/atlassian/gostatsd/pkg/backends/sender"
-	"github.com/atlassian/gostatsd/pkg/transport"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/internal/util"
+	"github.com/hligit/gostatsd/pkg/backends/sender"
+	"github.com/hligit/gostatsd/pkg/transport"
 )
 
 const (

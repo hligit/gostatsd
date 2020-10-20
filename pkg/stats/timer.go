@@ -3,7 +3,7 @@ package stats
 import (
 	"time"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 // Timer times an operation and submits a timing or gauge metric

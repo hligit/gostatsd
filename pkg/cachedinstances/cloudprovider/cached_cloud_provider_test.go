@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/time/rate"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/pkg/cloudproviders/fakeprovider"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/pkg/cloudproviders/fakeprovider"
 )
 
 func TestCachedCloudProviderExpirationAndRefresh(t *testing.T) {

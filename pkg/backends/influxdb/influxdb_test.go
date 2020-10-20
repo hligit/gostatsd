@@ -19,9 +19,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/internal/fixtures"
-	"github.com/atlassian/gostatsd/pkg/transport"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/internal/fixtures"
+	"github.com/hligit/gostatsd/pkg/transport"
 )
 
 func TestNewClientInvalid(t *testing.T) {

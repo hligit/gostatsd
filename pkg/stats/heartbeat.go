@@ -3,7 +3,7 @@ package stats
 import (
 	"context"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 // HeartBeater periodically sends a gauge for heartbeat purposes

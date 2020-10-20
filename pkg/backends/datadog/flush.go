@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 type metricType string

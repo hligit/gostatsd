@@ -13,10 +13,10 @@ import (
 	"github.com/spf13/viper"
 	"golang.org/x/time/rate"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/pkg/stats"
-	"github.com/atlassian/gostatsd/pkg/transport"
-	"github.com/atlassian/gostatsd/pkg/web"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/pkg/stats"
+	"github.com/hligit/gostatsd/pkg/transport"
+	"github.com/hligit/gostatsd/pkg/web"
 )
 
 // Server encapsulates all of the parameters necessary for starting up

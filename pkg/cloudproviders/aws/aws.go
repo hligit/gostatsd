@@ -19,9 +19,9 @@ import (
 	"github.com/spf13/viper"
 	"golang.org/x/net/http2"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/internal/util"
-	"github.com/atlassian/gostatsd/pkg/stats"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/internal/util"
+	"github.com/hligit/gostatsd/pkg/stats"
 )
 
 const (

@@ -12,9 +12,9 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/pkg/fakesocket"
-	"github.com/atlassian/gostatsd/pkg/statsd"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/pkg/fakesocket"
+	"github.com/hligit/gostatsd/pkg/statsd"
 )
 
 var (

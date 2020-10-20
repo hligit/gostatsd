@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 const (

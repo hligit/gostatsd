@@ -12,11 +12,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tilinna/clock"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/internal/fixtures"
-	"github.com/atlassian/gostatsd/pkg/statsd"
-	"github.com/atlassian/gostatsd/pkg/transport"
-	"github.com/atlassian/gostatsd/pkg/web"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/internal/fixtures"
+	"github.com/hligit/gostatsd/pkg/statsd"
+	"github.com/hligit/gostatsd/pkg/transport"
+	"github.com/hligit/gostatsd/pkg/web"
 )
 
 func TestForwardingEndToEndV2(t *testing.T) {

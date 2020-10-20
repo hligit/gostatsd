@@ -7,7 +7,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/atlassian/gostatsd/pkg/web"
+	"github.com/hligit/gostatsd/pkg/web"
 )
 
 func TestHttpServerShutsdown(t *testing.T) {

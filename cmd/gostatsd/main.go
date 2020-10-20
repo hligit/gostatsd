@@ -18,14 +18,14 @@ import (
 	"github.com/spf13/viper"
 	"golang.org/x/time/rate"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/internal/util"
-	"github.com/atlassian/gostatsd/pkg/backends"
-	"github.com/atlassian/gostatsd/pkg/cachedinstances"
-	"github.com/atlassian/gostatsd/pkg/cachedinstances/cloudprovider"
-	"github.com/atlassian/gostatsd/pkg/cloudproviders"
-	"github.com/atlassian/gostatsd/pkg/statsd"
-	"github.com/atlassian/gostatsd/pkg/transport"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/internal/util"
+	"github.com/hligit/gostatsd/pkg/backends"
+	"github.com/hligit/gostatsd/pkg/cachedinstances"
+	"github.com/hligit/gostatsd/pkg/cachedinstances/cloudprovider"
+	"github.com/hligit/gostatsd/pkg/cloudproviders"
+	"github.com/hligit/gostatsd/pkg/statsd"
+	"github.com/hligit/gostatsd/pkg/transport"
 )
 
 const (

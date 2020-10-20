@@ -3,7 +3,7 @@ package pool
 import (
 	"sync"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 // MetricPool is a strongly typed wrapper around a sync.Pool for *gostatsd.Metric, it provides

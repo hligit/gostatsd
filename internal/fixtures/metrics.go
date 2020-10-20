@@ -3,7 +3,7 @@ package fixtures
 import (
 	"fmt"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 type MetricOpt func(m *gostatsd.Metric)

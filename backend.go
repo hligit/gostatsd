@@ -6,7 +6,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 
-	"github.com/atlassian/gostatsd/pkg/transport"
+	"github.com/hligit/gostatsd/pkg/transport"
 )
 
 // BackendFactory is a function that returns a Backend.

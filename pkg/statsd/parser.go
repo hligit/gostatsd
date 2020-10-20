@@ -11,9 +11,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/time/rate"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/internal/pool"
-	"github.com/atlassian/gostatsd/pkg/stats"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/internal/pool"
+	"github.com/hligit/gostatsd/pkg/stats"
 )
 
 // Default buffer size for debug channel

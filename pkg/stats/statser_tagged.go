@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 // TaggedStatser adds tags and submits metrics to another Statser

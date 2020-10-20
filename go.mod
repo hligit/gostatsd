@@ -1,4 +1,4 @@
-module github.com/atlassian/gostatsd
+module github.com/hligit/gostatsd
 
 go 1.13
 

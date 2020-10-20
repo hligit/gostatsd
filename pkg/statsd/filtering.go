@@ -3,7 +3,7 @@ package statsd
 import (
 	"github.com/spf13/viper"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 type Filter struct {

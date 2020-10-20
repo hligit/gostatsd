@@ -18,8 +18,8 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/internal/util"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/internal/util"
 )
 
 var (

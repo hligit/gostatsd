@@ -13,10 +13,10 @@ import (
 	"github.com/tilinna/clock"
 	"golang.org/x/time/rate"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/internal/fixtures"
-	"github.com/atlassian/gostatsd/pkg/cachedinstances/cloudprovider"
-	"github.com/atlassian/gostatsd/pkg/cloudproviders/fakeprovider"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/internal/fixtures"
+	"github.com/hligit/gostatsd/pkg/cachedinstances/cloudprovider"
+	"github.com/hligit/gostatsd/pkg/cloudproviders/fakeprovider"
 )
 
 // BenchmarkCloudHandlerDispatchMetricMap is a benchmark intended to (manually) test

@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/time/rate"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/internal/fixtures"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/internal/fixtures"
 )
 
 type metricAndEvent struct {

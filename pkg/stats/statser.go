@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 // Statser is the interface for sending metrics

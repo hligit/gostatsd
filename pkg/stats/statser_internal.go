@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/atlassian/gostatsd"
+	"github.com/hligit/gostatsd"
 )
 
 // InternalStatser is a Statser which sends metrics to a handler on a best

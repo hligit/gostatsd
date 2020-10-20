@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/atlassian/gostatsd/pkg/cluster/nodes"
+	"github.com/hligit/gostatsd/pkg/cluster/nodes"
 )
 
 // Cluster is everything for running a single node in a cluster

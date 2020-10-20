@@ -19,8 +19,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tilinna/clock"
 
-	"github.com/atlassian/gostatsd"
-	"github.com/atlassian/gostatsd/pkg/transport"
+	"github.com/hligit/gostatsd"
+	"github.com/hligit/gostatsd/pkg/transport"
 )
 
 func advanceTime(c *clock.Mock, ch <-chan struct{}) {
