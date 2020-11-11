@@ -26,6 +26,7 @@ install:
   - make setup-ci
 
 script:
+  - docker version
   - make build-all
 #  - make coveralls
   - make check
