@@ -36,7 +36,7 @@ after_success:
   - if [ "$TRAVIS_OS_NAME" == "linux" -a ! -z "$TRAVIS_TAG" ]; then
     echo "Executing release on tag build $TRAVIS_TAG";
     docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
-    ARCH=linux make release;
+    ARCH=linux CPU_ARCH="$TRAVIS_CPU_ARCH" make release;
     else
     echo "Not executing release on non-tag build";
     fi
